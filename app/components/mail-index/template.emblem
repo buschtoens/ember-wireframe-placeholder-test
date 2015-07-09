@@ -1,9 +1,9 @@
-table
+table.mail-index
   thead
     tr
       th Titel
       th Datum
   tbody = each mails
-    tr
-      td: link-to "mails.mail" id | #{title}
-      td = date
+    link-to "mails.mail" id tagName="tr" class="link"
+      td = title
+      td = moment date "DD.MM.YYYY"

@@ -15,5 +15,7 @@ Mail.reopenClass({
     { id: 1, title: "Mail A", date: new Date(), prescriptions: [1, 2, 3] },
     { id: 2, title: "Mail B", date: new Date(), prescriptions: [4, 5, 6] },
     { id: 3, title: "Mail C", date: new Date(), prescriptions: [7, 8, 9] },
+    { id: 4, title: "Mail D", date: new Date(), prescriptions: [10, 11, 12] },
+    { id: 5, title: "Mail E", date: new Date(), prescriptions: [13, 14, 15] },
   ]
 });

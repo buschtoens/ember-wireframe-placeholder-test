@@ -1,4 +1,4 @@
-table
+table.prescription-item-index
   thead
     tr
       th Name

@@ -1,12 +1,12 @@
-table
+table.prescription-index
   thead
     tr
       th Titel
       th Kosten
   tbody
     each prescriptions
-      tr
-        td: link-to "mails.mail.prescription" id | #{title}
-        td = cost
+      link-to "mails.mail.prescription" id tagName="tr" class="link"
+        td = title
+        td #{cost} €
     else
       tr: td Empty

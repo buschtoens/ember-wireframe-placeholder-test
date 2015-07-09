@@ -1,5 +1,7 @@
 h1 Wireframe Placeholder Test
 
-link-to "mails" | Posteingang
+nav
+  link-to "index" | Startseite
+  link-to "mails" | Posteingang
 
 outlet

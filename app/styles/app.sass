@@ -1,4 +1,62 @@
+html
+  min-height: 100%
+  background: radial-gradient(ellipse farthest-corner at center top, #414345, #232526)
+  font-family: sans-serif
+
+body
+  width: 1200px
+  margin: 0 auto
+
+h1
+  color: #FFF
+
+nav
+  margin: 10px 0
+  border: 1px solid #666
+  border-radius: 3px
+  box-shadow: 0 0 10px rgba(#000, .5)
+
+  background: linear-gradient(#FFF, #EEE)
+  color: #000
+
+  font-size: 20px
+
+  a
+    padding: 15px
+    display: inline-block
+    color: inherit
+    text-decoration: inherit
+    transition: color .2s linear
+
+    &:hover
+      color: darken(#93EDC7, 30%)
+    &.active
+      color: darken(#1CD8D2, 10%)
+
+section
+  padding: 5px 15px
+  border-radius: 4px
+  background: #FFF
+
 table
-  width: 33%
+  width: 400px
   float: left
-  background: #EEE
+  border-collapse: collapse
+  background: #FFF
+
+  tr:nth-child(even)
+    background: #EEE
+
+  tr.link
+    cursor: pointer
+    &:hover
+      background: #93EDC7
+    &.active
+      background: #1CD8D2
+
+  thead
+    border-bottom: 1px solid #888
+
+  td, th
+    padding: 10px 5px
+    border: none
