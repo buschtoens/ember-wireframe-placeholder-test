@@ -3,4 +3,5 @@ section
 
   p Das funktoniert jetzt alles reibungslos und perfekt OHNE irgendwelche Hacks! <3
   p Auch die Übergabe der Models, etc, wenn man direkt per URL in eine Route reinsteuert.
+  p Der Trick besteht allein im Routing. Man kann nämlich neben einer :model_id Route auch noch eine index Route haben. Keine named outlets notwendig. Kein hacky Model hin und her Geeschiebe.
   p You're welcome. :P
