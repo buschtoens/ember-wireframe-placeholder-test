@@ -1,0 +1,12 @@
+table
+  thead
+    tr
+      th Name
+      th Hersteller
+  tbody
+    each items
+      tr
+        td = name
+        td = manufacturer
+    else
+      tr: td Empty

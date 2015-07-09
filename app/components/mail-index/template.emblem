@@ -1,0 +1,9 @@
+table
+  thead
+    tr
+      th Titel
+      th Datum
+  tbody = each mails
+    tr
+      td: link-to "mails.mail" id | #{title}
+      td = date
