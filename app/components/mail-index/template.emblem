@@ -1,9 +1,0 @@
-table.mail-index
-  thead
-    tr
-      th Titel
-      th Datum
-  tbody = each mails
-    link-to "mails.mail" id tagName="tr" class="link"
-      td = title
-      td = moment date "DD.MM.YYYY"
